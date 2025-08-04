@@ -124,3 +124,12 @@ export const getButtonColor = (color, isOutlined, hasHover, isActive = false) =>
 
   return base
 }
+export const colorsOutline = {
+  white: 'border-white text-white',
+  light: 'border-gray-100 text-gray-100 dark:border-slate-800 dark:text-slate-800',
+  contrast: 'border-gray-800 text-gray-800 dark:border-white dark:text-white',
+  success: 'border-lime-500 text-lime-500',
+  danger: 'border-fuchsia-600 text-fuchsia-600',
+  warning: 'border-orange-400 text-orange-400',
+  info: 'border-cyan-400 text-cyan-400'
+}
