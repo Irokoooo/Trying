@@ -2,6 +2,7 @@ export const gradientBgBase = 'bg-gradient-to-tr'
 export const gradientBgPurplePink = `${gradientBgBase} from-violet-500 via-pink-400 to-amber-300`
 export const gradientBgDark = `${gradientBgBase} from-slate-800 via-gray-900 to-neutral-800`
 export const gradientBgPurpleLight = `${gradientBgBase} from-purple-300 via-blue-400 to-cyan-300`
+export const gradientBgPinkRed = `${gradientBgBase} from-pink-400 via-rose-500 to-red-500`
 export const colorsBgLight = {
   white: 'bg-rose-50 text-indigo-900',
   light: 'bg-amber-50 text-gray-800 dark:bg-zinc-800/90 dark:text-gray-50',
@@ -28,6 +29,15 @@ export const infoText = {
   danger: 'text-rose-600',
   warning: 'text-yellow-600',
   info: 'text-blue-400'
+}
+export const colorsOutline = {
+  white: 'border-white text-white',
+  light: 'border-gray-100 text-gray-100 dark:border-slate-800 dark:text-slate-800',
+  contrast: 'border-gray-800 text-gray-800 dark:border-white dark:text-white',
+  success: 'border-lime-500 text-lime-500',
+  danger: 'border-fuchsia-600 text-fuchsia-600',
+  warning: 'border-orange-400 text-orange-400',
+  info: 'border-cyan-400 text-cyan-400'
 }
 export const getButtonColor = (color, isOutlined, hasHover, isActive = false) => {
   const colors = {
@@ -123,13 +133,4 @@ export const getButtonColor = (color, isOutlined, hasHover, isActive = false) =>
   }
 
   return base
-}
-export const colorsOutline = {
-  white: 'border-white text-white',
-  light: 'border-gray-100 text-gray-100 dark:border-slate-800 dark:text-slate-800',
-  contrast: 'border-gray-800 text-gray-800 dark:border-white dark:text-white',
-  success: 'border-lime-500 text-lime-500',
-  danger: 'border-fuchsia-600 text-fuchsia-600',
-  warning: 'border-orange-400 text-orange-400',
-  info: 'border-cyan-400 text-cyan-400'
 }
