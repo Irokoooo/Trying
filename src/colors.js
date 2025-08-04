@@ -1,106 +1,106 @@
 export const gradientBgBase = 'bg-gradient-to-tr'
-export const gradientBgPurplePink = `${gradientBgBase} from-indigo-400 via-amber-500 to-rose-500`
-export const gradientBgDark = `${gradientBgBase} from-neutral-700 via-zinc-900 to-stone-800`
-export const gradientBgPurpleLight = `${gradientBgBase} from-fuchsia-400 via-sky-500 to-orange-500`
+export const gradientBgPurplePink = `${gradientBgBase} from-violet-500 via-pink-400 to-amber-300`
+export const gradientBgDark = `${gradientBgBase} from-slate-800 via-gray-900 to-neutral-800`
+export const gradientBgPurpleLight = `${gradientBgBase} from-purple-300 via-blue-400 to-cyan-300`
 export const colorsBgLight = {
-  white: 'bg-gray-100 text-purple-900',
-  light: 'bg-gray-50 text-gray-900 dark:bg-slate-800/80 dark:text-gray-100',
-  contrast: 'bg-cyan-900 text-amber-50 dark:bg-amber-50 dark:text-cyan-900',
-  success: 'bg-teal-600 border-teal-600 text-white',
-  danger: 'bg-rose-600 border-rose-600 text-white',
-  warning: 'bg-amber-400 border-amber-400 text-gray-900',
-  info: 'bg-sky-500 border-sky-500 text-white'
+  white: 'bg-rose-50 text-indigo-900',
+  light: 'bg-amber-50 text-gray-800 dark:bg-zinc-800/90 dark:text-gray-50',
+  contrast: 'bg-stone-900 text-amber-100 dark:bg-amber-100 dark:text-stone-900',
+  success: 'bg-lime-500 border-lime-500 text-white',
+  danger: 'bg-fuchsia-600 border-fuchsia-600 text-white',
+  warning: 'bg-orange-300 border-orange-300 text-gray-800',
+  info: 'bg-cyan-400 border-cyan-400 text-white'
 }
 export const colorsText = {
-  white: 'text-gray-800 dark:text-amber-50',
-  light: 'text-gray-600 dark:text-slate-300',
-  contrast: 'dark:text-gray-100',
-  success: 'text-emerald-600',
-  danger: 'text-rose-700',
-  warning: 'text-amber-500',
-  info: 'text-sky-600'
+  white: 'text-gray-700 dark:text-rose-100',
+  light: 'text-gray-500 dark:text-zinc-200',
+  contrast: 'dark:text-gray-50',
+  success: 'text-green-500',
+  danger: 'text-pink-700',
+  warning: 'text-amber-600',
+  info: 'text-sky-500'
 }
 export const infoText = {
-  white: 'text-gray-900',
-  light: 'text-gray-500 dark:text-slate-300',
+  white: 'text-gray-800',
+  light: 'text-gray-600 dark:text-slate-200',
   contrast: 'dark:text-gray-50',
-  success: 'text-lime-600',
-  danger: 'text-red-600',
-  warning: 'text-yellow-500',
-  info: 'text-blue-500'
+  success: 'text-emerald-500',
+  danger: 'text-rose-600',
+  warning: 'text-yellow-600',
+  info: 'text-blue-400'
 }
 export const getButtonColor = (color, isOutlined, hasHover, isActive = false) => {
   const colors = {
     ring: {
-      white: 'ring-gray-200 dark:ring-gray-500',
-      whiteDark: 'ring-gray-200 dark:ring-gray-500',
-      lightDark: 'ring-gray-200 dark:ring-gray-500',
-      contrast: 'ring-gray-300 dark:ring-gray-400',
-      success: 'ring-emerald-300 dark:ring-emerald-700',
-      danger: 'ring-red-300 dark:ring-red-700',
-      warning: 'ring-yellow-300 dark:ring-yellow-700',
-      info: 'ring-blue-300 dark:ring-blue-700'
+      white: 'ring-gray-300 dark:ring-gray-400',
+      whiteDark: 'ring-gray-300 dark:ring-gray-400',
+      lightDark: 'ring-gray-300 dark:ring-gray-400',
+      contrast: 'ring-gray-400 dark:ring-gray-300',
+      success: 'ring-lime-400 dark:ring-lime-600',
+      danger: 'ring-fuchsia-400 dark:ring-fuchsia-600',
+      warning: 'ring-orange-400 dark:ring-orange-600',
+      info: 'ring-cyan-400 dark:ring-cyan-600'
     },
     active: {
-      white: 'bg-gray-100',
-      whiteDark: 'bg-gray-100 dark:bg-slate-800',
-      lightDark: 'bg-gray-200 dark:bg-slate-700',
-      contrast: 'bg-gray-700 dark:bg-slate-100',
-      success: 'bg-emerald-700 dark:bg-emerald-600',
-      danger: 'bg-red-700 dark:bg-red-600',
-      warning: 'bg-yellow-700 dark:bg-yellow-600',
-      info: 'bg-blue-700 dark:bg-blue-600'
+      white: 'bg-gray-200',
+      whiteDark: 'bg-gray-200 dark:bg-zinc-700',
+      lightDark: 'bg-gray-300 dark:bg-zinc-600',
+      contrast: 'bg-stone-800 dark:bg-amber-200',
+      success: 'bg-lime-600 dark:bg-lime-500',
+      danger: 'bg-fuchsia-700 dark:bg-fuchsia-500',
+      warning: 'bg-orange-500 dark:bg-orange-400',
+      info: 'bg-cyan-500 dark:bg-cyan-400'
     },
     bg: {
       white: 'bg-white text-black',
-      whiteDark: 'bg-white text-black dark:bg-slate-900 dark:text-white',
-      lightDark: 'bg-gray-100 text-black dark:bg-slate-800 dark:text-white',
-      contrast: 'bg-gray-800 text-white dark:bg-white dark:text-black',
-      success: 'bg-emerald-600 dark:bg-emerald-500 text-white',
-      danger: 'bg-red-600 dark:bg-red-500 text-white',
-      warning: 'bg-yellow-600 dark:bg-yellow-500 text-white',
-      info: 'bg-blue-600 dark:bg-blue-500 text-white'
+      whiteDark: 'bg-white text-black dark:bg-zinc-800 dark:text-white',
+      lightDark: 'bg-amber-100 text-black dark:bg-zinc-700 dark:text-white',
+      contrast: 'bg-stone-900 text-white dark:bg-white dark:text-black',
+      success: 'bg-lime-500 dark:bg-lime-400 text-white',
+      danger: 'bg-fuchsia-600 dark:bg-fuchsia-400 text-white',
+      warning: 'bg-orange-400 dark:bg-orange-300 text-white',
+      info: 'bg-cyan-400 dark:bg-cyan-300 text-white'
     },
     bgHover: {
-      white: 'hover:bg-gray-100',
-      whiteDark: 'hover:bg-gray-100 hover:dark:bg-slate-800',
-      lightDark: 'hover:bg-gray-200 hover:dark:bg-slate-700',
-      contrast: 'hover:bg-gray-700 hover:dark:bg-slate-100',
+      white: 'hover:bg-gray-200',
+      whiteDark: 'hover:bg-gray-200 hover:dark:bg-zinc-700',
+      lightDark: 'hover:bg-gray-300 hover:dark:bg-zinc-600',
+      contrast: 'hover:bg-stone-800 hover:dark:bg-amber-200',
       success:
-        'hover:bg-emerald-700 hover:border-emerald-700 hover:dark:bg-emerald-600 hover:dark:border-emerald-600',
+        'hover:bg-lime-600 hover:border-lime-600 hover:dark:bg-lime-500 hover:dark:border-lime-500',
       danger:
-        'hover:bg-red-700 hover:border-red-700 hover:dark:bg-red-600 hover:dark:border-red-600',
+        'hover:bg-fuchsia-700 hover:border-fuchsia-700 hover:dark:bg-fuchsia-500 hover:dark:border-fuchsia-500',
       warning:
-        'hover:bg-yellow-700 hover:border-yellow-700 hover:dark:bg-yellow-600 hover:dark:border-yellow-600',
-      info: 'hover:bg-blue-700 hover:border-blue-700 hover:dark:bg-blue-600 hover:dark:border-blue-600'
+        'hover:bg-orange-500 hover:border-orange-500 hover:dark:bg-orange-400 hover:dark:border-orange-400',
+      info: 'hover:bg-cyan-500 hover:border-cyan-500 hover:dark:bg-cyan-400 hover:dark:border-cyan-400'
     },
     borders: {
       white: 'border-white',
-      whiteDark: 'border-white dark:border-slate-900',
-      lightDark: 'border-gray-100 dark:border-slate-800',
-      contrast: 'border-gray-800 dark:border-white',
-      success: 'border-emerald-600 dark:border-emerald-500',
-      danger: 'border-red-600 dark:border-red-500',
-      warning: 'border-yellow-600 dark:border-yellow-500',
-      info: 'border-blue-600 dark:border-blue-500'
+      whiteDark: 'border-white dark:border-zinc-800',
+      lightDark: 'border-amber-100 dark:border-zinc-700',
+      contrast: 'border-stone-900 dark:border-white',
+      success: 'border-lime-500 dark:border-lime-400',
+      danger: 'border-fuchsia-600 dark:border-fuchsia-400',
+      warning: 'border-orange-400 dark:border-orange-300',
+      info: 'border-cyan-400 dark:border-cyan-300'
     },
     text: {
-      contrast: 'dark:text-slate-100',
-      success: 'text-emerald-600 dark:text-emerald-500',
-      danger: 'text-red-600 dark:text-red-500',
-      warning: 'text-yellow-600 dark:text-yellow-500',
-      info: 'text-blue-600 dark:text-blue-500'
+      contrast: 'dark:text-stone-100',
+      success: 'text-lime-500 dark:text-lime-400',
+      danger: 'text-fuchsia-600 dark:text-fuchsia-400',
+      warning: 'text-orange-400 dark:text-orange-300',
+      info: 'text-cyan-400 dark:text-cyan-300'
     },
     outlineHover: {
       contrast:
-        'hover:bg-gray-800 hover:text-gray-100 hover:dark:bg-slate-100 hover:dark:text-black',
+        'hover:bg-stone-900 hover:text-amber-100 hover:dark:bg-amber-200 hover:dark:text-black',
       success:
-        'hover:bg-emerald-600 hover:text-white hover:text-white hover:dark:text-white hover:dark:border-emerald-600',
+        'hover:bg-lime-500 hover:text-white hover:text-white hover:dark:text-white hover:dark:border-lime-500',
       danger:
-        'hover:bg-red-600 hover:text-white hover:text-white hover:dark:text-white hover:dark:border-red-600',
+        'hover:bg-fuchsia-600 hover:text-white hover:text-white hover:dark:text-white hover:dark:border-fuchsia-600',
       warning:
-        'hover:bg-yellow-600 hover:text-white hover:text-white hover:dark:text-white hover:dark:border-yellow-600',
-      info: 'hover:bg-blue-600 hover:text-white hover:dark:text-white hover:dark:border-blue-600'
+        'hover:bg-orange-400 hover:text-white hover:text-white hover:dark:text-white hover:dark:border-orange-400',
+      info: 'hover:bg-cyan-400 hover:text-white hover:dark:text-white hover:dark:border-cyan-400'
     }
   }
 
