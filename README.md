@@ -10,7 +10,7 @@
 
 ---
 
-# [Admin One &mdash; 带深色模式的免费 Vue 3.x Tailwind 3.x 管理仪表板](https://justboil.me/tailwind-admin-templates/free-vue-dashboard/)
+#这是我的第一个Vue项目，用于学习前端开发
 
 [![版本](https://img.shields.io/github/v/release/justboil/admin-one-vue-tailwind)](https://justboil.me/tailwind-admin-templates/free-vue-dashboard/) [![许可证](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.me/tailwind-admin-templates/free-vue-dashboard/)
 
@@ -20,7 +20,7 @@
 
 [![Vue Tailwind 白色和深色样式](https://static.justboil.me/templates/one/repo-styles.png)](https://justboil.github.io/admin-one-vue-tailwind/)
 
-### Tailwind 3.x Vue 3.x 搭配 Vite 或 Nuxt 或 Laravel
+### 自带响应式的页面，挺适合拿来打大创比赛俗称网页使用欸
 
 **Admin One** 是简单、美观且免费的 Vue.js 3.x Tailwind CSS 3.x 管理仪表板。可与 Nuxt 3.x 或 Laravel 9.x 集成
 
