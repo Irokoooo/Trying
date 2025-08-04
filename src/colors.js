@@ -1,24 +1,31 @@
 export const gradientBgBase = 'bg-gradient-to-tr'
-export const gradientBgPurplePink = `${gradientBgBase} from-purple-400 via-pink-500 to-red-500`
-export const gradientBgDark = `${gradientBgBase} from-slate-700 via-slate-900 to-slate-800`
-export const gradientBgPinkRed = `${gradientBgBase} from-pink-400 via-red-500 to-yellow-500`
-
+export const gradientBgPurplePink = `${gradientBgBase} from-indigo-400 via-amber-500 to-rose-500`
+export const gradientBgDark = `${gradientBgBase} from-neutral-700 via-zinc-900 to-stone-800`
+export const gradientBgPurpleLight = `${gradientBgBase} from-fuchsia-400 via-sky-500 to-orange-500`
 export const colorsBgLight = {
-  white: 'bg-white text-black',
-  light: 'bg-white text-black dark:bg-slate-900/70 dark:text-white',
-  contrast: 'bg-gray-800 text-white dark:bg-white dark:text-black',
-  success: 'bg-emerald-500 border-emerald-500 text-white',
-  danger: 'bg-red-500 border-red-500 text-white',
-  warning: 'bg-yellow-500 border-yellow-500 text-white',
-  info: 'bg-blue-500 border-blue-500 text-white'
+  white: 'bg-gray-100 text-purple-900',
+  light: 'bg-gray-50 text-gray-900 dark:bg-slate-800/80 dark:text-gray-100',
+  contrast: 'bg-cyan-900 text-amber-50 dark:bg-amber-50 dark:text-cyan-900',
+  success: 'bg-teal-600 border-teal-600 text-white',
+  danger: 'bg-rose-600 border-rose-600 text-white',
+  warning: 'bg-amber-400 border-amber-400 text-gray-900',
+  info: 'bg-sky-500 border-sky-500 text-white'
 }
-
 export const colorsText = {
-  white: 'text-black dark:text-slate-100',
-  light: 'text-gray-700 dark:text-slate-400',
-  contrast: 'dark:text-white',
-  success: 'text-emerald-500',
-  danger: 'text-red-500',
+  white: 'text-gray-800 dark:text-amber-50',
+  light: 'text-gray-600 dark:text-slate-300',
+  contrast: 'dark:text-gray-100',
+  success: 'text-emerald-600',
+  danger: 'text-rose-700',
+  warning: 'text-amber-500',
+  info: 'text-sky-600'
+}
+export const infoText = {
+  white: 'text-gray-900',
+  light: 'text-gray-500 dark:text-slate-300',
+  contrast: 'dark:text-gray-50',
+  success: 'text-lime-600',
+  danger: 'text-red-600',
   warning: 'text-yellow-500',
   info: 'text-blue-500'
 }
